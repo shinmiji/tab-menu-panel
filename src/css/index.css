@@ -1,0 +1,92 @@
+@charset "utf-8";
+body {
+	margin: 0;
+	font-family: Verdana;
+}
+div.wrap {
+	width: 960px;
+	margin: 0 auto;
+}
+div.wrap * {
+	background-repeat: no-repeat;
+}
+ul {
+	list-style: none;
+	position: relative;
+}
+
+ul a {
+	display: inline-block;
+	width: 99px;
+	height: 40px;
+	text-indent: -9999px;
+	position: absolute;
+	top: 0;
+}
+ul a.google {
+	background: url('../images/google.png');
+	left: 40px;
+}
+ul a.facebook {
+	background: url('../images/facebook.png');
+	left: 140px;
+}
+ul a.pinterest {
+	background: url('../images/pinterest.png');
+	left: 240px;
+}
+ul a.twitter {
+	background: url('../images/twitter.png');
+	left: 340px;
+}
+ul a.path {
+	background: url('../images/path.png');
+	left: 440px;
+}
+ul a:hover,
+ul a:focus {
+	background-position:0 -40px;
+}
+ul a.select {
+	background-position:0 -80px;
+	height: 80px;
+}
+
+ul p {
+	width: 677px;
+	height: 338px;
+	margin: 0;
+	padding: 50px 50px 0;
+	background-image: url('../images/content_bg.png');
+	position: absolute;
+	top: 90px;
+	left: 0;
+	display: none;
+}
+
+ul p.select {
+	display: block;
+}
+ul p > span.images {
+	display: block;
+	opacity: 0.1;
+	width: 500px;
+	height: 113px;
+	margin-bottom: -100px;
+}
+ul p.google > span.images {
+	background-image: url('../images/logo_google.png') ;
+}
+ul p.facebook > span.images {
+	background-image: url('../images/logo_facebook.png') ;
+}
+ul p.pinterest > span.images {
+	background-image: url('../images/logo_pinterest.png') ;
+}
+ul p.twitter > span.images {
+	background-image: url('../images/logo_twitter.png') ;
+}
+ul p.path > span.images {
+	background-image: url('../images/logo_path.png') ;
+}
+
